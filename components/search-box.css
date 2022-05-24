@@ -1,0 +1,43 @@
+.search-container {
+  padding: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.search-container ion-icon {
+  font-size: 1.5em;
+  margin-left: -1.5em;
+}
+
+.search {
+  border: .2em solid var(--cor2);
+  width: 30em;
+  text-align: left;
+  font-size: 1em;
+  padding: .7em 9em .7em .4em;
+}
+
+/* MOBILE */
+
+@media (max-width: 425px) {
+
+  .search-container ion-icon {
+    display: none;
+  }
+
+  .search {
+    width: 20em;
+    padding: .7em 0em .7em .4em;
+  }
+
+}
+
+@media (max-width: 300px) {
+
+  .search {
+    font-size: .8em;
+  }
+
+}
