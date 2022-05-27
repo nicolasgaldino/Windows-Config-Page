@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import 'nav-bar.css';
 @import 'search-box.css';
+@import 'main-sec.css';
 
 :root {
   --cor0: #FFFFFF;
