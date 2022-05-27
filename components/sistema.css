@@ -1,0 +1,23 @@
+main {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sec-um {
+  width: 17vw;
+  height: 100vh;
+  background: var(--cor1);
+}
+
+.sec-dois {
+  width: 63vw;
+  height: 100vh;
+}
+
+.sec-tres {
+  width: 20vw;
+  height: 100vh;
+}
+
+/* Mobile */

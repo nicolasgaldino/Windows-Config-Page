@@ -3,6 +3,7 @@
 @import 'nav-bar.css';
 @import 'search-box.css';
 @import 'main-sec.css';
+@import 'sistema.css';
 
 :root {
   --cor0: #FFFFFF;
