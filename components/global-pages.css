@@ -1,0 +1,76 @@
+main {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sec-um {
+  width: 17vw;
+  height: 100vh;
+  background: var(--cor1);
+}
+
+.sec-dois {
+  width: 63vw;
+  height: 100vh;
+}
+
+.sec-tres {
+  width: 20vw;
+  height: 100vh;
+}
+
+.sec-um h3 {
+  margin: 1em 0em 0em 1em;
+}
+
+.sec-um a {
+  width: 100vw;
+}
+
+.sec-um ion-icon {
+  font-size: 1.1em;
+  margin: 1em 0em 0em 1em;
+}
+
+.sec-um p {
+  height: 50px;
+  font-size: 1em;
+}
+
+.sec-um p:hover {
+  background: var(--cor3);
+}
+
+.detail-search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin: .5em 0em 0em 1em;
+}
+
+.detail-search {
+  border: .2em solid var(--cor2);
+  width: 30em;
+  text-align: left;
+  font-size: .9em;
+  padding: .3em 0em .3em .3em;
+}
+
+/* MOBILE */
+
+@media (max-width: 720px) {
+
+  .sec-um,
+  .sec-tres {
+    display: none;
+  }
+
+}
+
+@media (max-width: 300px) {
+
+
+
+}

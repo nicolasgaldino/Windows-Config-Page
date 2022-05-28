@@ -3,12 +3,13 @@
 @import 'nav-bar.css';
 @import 'search-box.css';
 @import 'main-sec.css';
-@import 'sistema.css';
+@import 'global-pages.css';
 
 :root {
   --cor0: #FFFFFF;
   --cor1: #F2F2F2;
   --cor2: #000000;
+  --cor3: #F9F9F9;
 }
 
 * {
