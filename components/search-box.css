@@ -9,6 +9,11 @@
 .search-container ion-icon {
   font-size: 1.5em;
   margin-left: -1.5em;
+  transition: all .2s ease-in-out;
+}
+
+.search-container ion-icon:hover {
+  transform: scale(1.2);
 }
 
 .search {

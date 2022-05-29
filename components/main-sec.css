@@ -22,8 +22,10 @@ a {
   display: flex;
   align-items: center;
   width: 270px;
-  height: 120px;
+  height: 100px;
+  padding: .5em;
   cursor: pointer;
+  transition: all .2s ease-in-out;
 }
 
 .main-itens-middle {
@@ -31,14 +33,22 @@ a {
   align-items: center;
   margin: 1.5em 0em 1.5em 0em;
   width: 270px;
-  height: 120px;
+  height: 100px;
+  padding: .5em;
   cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.main-text {
+  width: 13em;
+  height: auto;
 }
 
 .main-itens ion-icon,
 .main-itens-middle ion-icon {
-  font-size: 2em;
-  margin: .5em;
+  margin-right: .5em;
+  width: 2.5em;
+  height: 2.5em;
 }
 
 .main-itens h2,
@@ -55,6 +65,7 @@ a {
 .main-itens-middle:hover {
   background: var(--cor1);
   border-radius: 5px;
+  transform: scale(1.2);
 }
 
 /* Mobile */
